@@ -1,2 +1,19 @@
-# Project exclude paths
-/out/
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.log
+
+out
+target
+build
+.gradle
+gradle
+gradle*
+
+*.class

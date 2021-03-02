@@ -10,7 +10,7 @@ public class IOChamber {
     private static ArrayList<String> ls = new ArrayList<>();
     public static void main(String[] args) {
 
-        if (args.length !=0) {
+        if (args.length != 0) {
             IOChamber.readFile(args[0]);
         }
         if (ls.size()==0) {
